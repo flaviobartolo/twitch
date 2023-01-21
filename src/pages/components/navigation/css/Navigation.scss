@@ -1,0 +1,13 @@
+.header {
+  padding: 1.5rem 1rem;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo path {
+    fill: blue;
+    flex-basis: 0;
+  }
+
+}
