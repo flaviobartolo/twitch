@@ -1,11 +1,31 @@
 .header {
-  padding: 1.5rem 1rem;
+  height: 5rem;
   background-color: orangered;
+}
+.header .navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100%;
+  margin: 0 1.5rem;
 }
-.header .logo path {
+.header .navigation__left {
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.header .navigation__left .navigation__logo {
   fill: blue;
-  flex-basis: 0;
+}
+.header .navigation__left .navigation__link {
+  padding: 1.5rem 2rem;
+}
+.header .navigation__right {
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }/*# sourceMappingURL=Navigation.css.map */

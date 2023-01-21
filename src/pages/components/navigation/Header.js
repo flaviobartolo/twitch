@@ -5,7 +5,9 @@ import './css/Navigation.css'
 function Header(props) {
   return (
     <header className='header'>
-      {props.children}
+      <nav className='navigation'>
+        {props.children}
+      </nav>
     </header>
   )
 }

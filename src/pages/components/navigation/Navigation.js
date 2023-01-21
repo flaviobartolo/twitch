@@ -1,11 +1,10 @@
 import React from 'react'
 
 import Header from './Header'
-import Logo from './Logo'
-import NavLinksLeft from './NavLinksLeft'
+import NavigationLeft from './NavigationLeft'
 import SearchBar from './SearchBar'
-import NavLinksRight from './NavLinksRight'
-import ProfileMenu from './ProfileMenu'
+import NavigationRight from './NavigationRight'
+
 
 import './css/Navigation.css'
 
@@ -13,11 +12,9 @@ function Navigation() {
   return (
     <>
       <Header>
-        <Logo />
-        <NavLinksLeft />
+        <NavigationLeft />
         <SearchBar />
-        <NavLinksRight />
-        <ProfileMenu />
+        <NavigationRight />
       </Header>
     </>
   )
