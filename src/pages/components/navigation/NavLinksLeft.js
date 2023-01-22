@@ -1,12 +1,13 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function NavLinksLeft() {
   return (
-    <>
-      <div className='navigation__link'>Following</div>
-      <div className='navigation__link'>Browse</div>
-      <div className='navigation__link'>...</div>
-    </>
+    <ul>
+      <NavLink to="#" className='navigation__link'>Following</NavLink>
+      <NavLink to="#" className='navigation__link'>Browse</NavLink>
+      <NavLink to="#" className='navigation__link'>...</NavLink>
+    </ul>
   )
 }
 

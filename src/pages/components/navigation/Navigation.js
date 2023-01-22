@@ -5,9 +5,6 @@ import NavigationLeft from './NavigationLeft'
 import SearchBar from './SearchBar'
 import NavigationRight from './NavigationRight'
 
-
-import './css/Navigation.css'
-
 function Navigation() {
   return (
     <>
