@@ -1,0 +1,21 @@
+.search {
+  display: flex;
+  flex: 0 0 40%;
+  align-items: stretch;
+  justify-content: center;
+}
+.search__input {
+  font-family: inherit;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.08);
+  width: 60%;
+  border: none;
+  transition: all 0.2s;
+  margin-right: -3.25rem;
+  border-radius: 5px;
+}
+.search__input:focus {
+  outline: blue;
+  width: 70%;
+}/*# sourceMappingURL=Search.css.map */
