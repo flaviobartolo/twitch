@@ -40,6 +40,7 @@
   }
 
   &__avatar-box {
+    display: flex;
   }
 
   &__avatar {
@@ -61,20 +62,22 @@
     font-weight: $font-weight-slim;
   }
 
-}
+  &__viewers {
+    position: relative;
+    font-size: $font-size-subtitle;
+    font-weight: $font-weight-slim;
 
-  /* width */
-  ::-webkit-scrollbar {
-    width: 0.5rem;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -1.2rem;
+      width: 0.6rem;
+      height: 0.6rem;
+      background-color: red;
+      transform: translateY(60%);
+      border-radius: 50px;
+    }
   }
-  
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: $color-navigation-hover;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: $color-navigation-hover;
-  }
+
+}
