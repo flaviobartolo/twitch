@@ -3,13 +3,18 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 
 import './pages/css/main.scss'
 
-import Landing from './pages/Landing'
+import Landing from './pages/landing/Landing'
+
 import Navigation from './pages/components/navigation/Navigation'
+import SideBar from './pages/components/sidebar/SideBar'
 
 function App() {
   return <Router>
     <Navigation />
-    <Landing />
+    <main className='content'>
+      <SideBar />
+      <Landing />
+    </main> 
   </Router>
 }
 

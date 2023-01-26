@@ -1,0 +1,80 @@
+.sidebar {
+  background-color: $color-sidebar;
+  font-weight: $font-weight-semibold;
+  line-height: 1.2;
+  overflow-y: scroll;
+  height: 100vh;
+
+  flex: 0 0 22rem;
+
+  &__title, &__subtitle {
+    padding: 0 1.5rem;
+  }
+
+  &__title {
+    margin-top: 1.5rem; 
+    font-size: $font-size-title;
+  }
+
+  &__subtitle {
+    margin: 1.5rem 0;
+    font-size: $font-size-subtitle;
+    text-transform: uppercase;
+  }
+
+  ///////////////////////////////////
+  /// Sidebar streamer items      ///
+  /// ///////////////////////////////
+
+  &__item {
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover {
+      background-color: $color-navigation-hover;
+    }
+  }
+
+  &__avatar-box {
+  }
+
+  &__avatar {
+    border-radius: 50px;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  &__info-box {
+    flex: 0 0 70%;
+    margin-left: 0.5rem;
+  }
+
+  &__streamer {
+    font-size: $font-size-subtitle;
+  }
+
+  &__game {
+    font-weight: $font-weight-slim;
+  }
+
+}
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $color-navigation-hover;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $color-navigation-hover;
+  }
