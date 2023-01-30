@@ -1,11 +1,14 @@
 import React from 'react'
-import SideBar from '../components/sidebar/SideBar'
+
+import Carousel from '../components/frontpageCarousel/FrontpageCarousel'
 
 function Landing() {
   return (
-    <div className='main'>
-      Main
-    </div>
+    <main>
+      <div className='frontpageCarousel'>
+        <Carousel />
+      </div>
+    </main>
   )
 }
 
