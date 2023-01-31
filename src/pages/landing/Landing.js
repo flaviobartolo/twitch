@@ -4,7 +4,7 @@ import Carousel from '../components/frontpageCarousel/FrontpageCarousel'
 
 function Landing() {
   return (
-    <main>
+    <main className='main'>
       <div className='frontpageCarousel'>
         <Carousel />
       </div>

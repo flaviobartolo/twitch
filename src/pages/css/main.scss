@@ -2,6 +2,10 @@
 
 @import "./base";
 @import "./layout";
+
 @import "../components/navigation/css/Navigation";
 @import "../components/navigation/css/Search";
 @import "../components/sidebar/SideBar.scss";
+@import "../components/frontpageCarousel/FrontpageCarousel.scss";
+
+@import "../landing/Landing.scss";

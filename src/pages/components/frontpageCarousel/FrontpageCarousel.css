@@ -1,0 +1,54 @@
+.frontpageCarousel {
+  display: flex;
+  flex: 0 1 100%;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30rem;
+}
+.frontpageCarousel__icon {
+  align-self: center;
+  font-size: 5rem;
+}
+.frontpageCarousel__content {
+  flex: 0 0 80%;
+  height: 100%;
+  position: relative;
+}
+.frontpageCarousel__video {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  position: absolute;
+}
+.frontpageCarousel__video-tr {
+  z-index: 1;
+  top: 50%;
+  left: 100%;
+  transform: translate(-100%, -50%) scale(0.8);
+}
+.frontpageCarousel__video-sr {
+  z-index: 2;
+  top: 50%;
+  left: 80%;
+  transform: translate(-80%, -50%) scale(0.9);
+}
+.frontpageCarousel__video-main {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+.frontpageCarousel__video-sl {
+  z-index: 2;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%) scale(0.9);
+}
+.frontpageCarousel__video-tl {
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%) scale(0.8);
+}/*# sourceMappingURL=FrontpageCarousel.css.map */

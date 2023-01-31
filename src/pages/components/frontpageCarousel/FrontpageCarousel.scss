@@ -1,0 +1,69 @@
+
+.frontpageCarousel {
+
+  display: flex;
+  flex: 0 1 100%;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30rem;
+
+  &__icon {
+    align-self: center;
+    font-size: 5rem;
+  }
+
+  &__content {
+    flex: 0 0 80%;
+    height: 100%;
+    position: relative;
+  }
+
+  &__video {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    position: absolute;
+
+
+  
+    &-tr {
+      z-index: 1;
+      top: 50%;
+      left: 100%;
+      transform: translate(-100%, -50%) scale(0.8);
+    }
+    
+    &-sr {
+      z-index: 2;
+      top: 50%;
+      left: 80%;
+      transform: translate(-80%, -50%) scale(0.9);
+    }
+
+    &-main {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 3;
+    }
+  
+    &-sl {
+      z-index: 2;
+      top: 50%;
+      left: 20%;
+      transform: translate(-20%, -50%) scale(0.9);
+    }
+  
+    &-tl {
+      z-index: 1;
+
+      top: 50%;
+      left: 0;
+      transform: translate(0, -50%) scale(0.8);
+    }
+
+  }
+
+}

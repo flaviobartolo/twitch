@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@mui/icons-material": "^5.11.0",
-    "@mui/material": "^5.11.6",
-    "@mui/styles": "^5.11.2",
     "@reduxjs/toolkit": "^1.9.1",
     "@svgr/core": "^6.5.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,7 +10,7 @@
     "@testing-library/user-event": "^14.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-material-ui-carousel": "^3.4.2",
+    "react-icons": "^4.7.1",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.7.0",
     "react-scripts": "5.0.1",

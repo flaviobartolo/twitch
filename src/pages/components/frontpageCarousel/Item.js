@@ -1,16 +1,15 @@
 import React from 'react'
 
-import {Paper, Button} from '@mui/material'
+import placeholder from '../../../assets/img/carousel_placeholder.jpg'
 
-function Item() {
+function Item(props) {
+
+  console.log(props)
+
   return (
-    <Paper>
-      <h2>Teste</h2>
-      <p>Testeeee</p>
-      <Button>
-        Btn
-      </Button>
-    </Paper>
+    <>
+      <div className={props.className}><img src={placeholder} alt='img' /></div>
+    </>
   )
 }
 
